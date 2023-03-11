@@ -12,6 +12,7 @@ export const Header = () => {
          <h1>500</h1>
            <p className="fa-regular fa-bell  bel"></p>
            <p className="fa-regular fa-bell  bel"></p>
+           <p className="fa-regular fa-bell  bel"></p>
          </div>
     </div>
   )
