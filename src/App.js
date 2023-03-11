@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <ABC />
       <LeftNavbar />
+      <ABC />
     </div>
   );
 }
