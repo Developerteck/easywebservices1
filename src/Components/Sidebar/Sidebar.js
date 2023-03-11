@@ -23,7 +23,7 @@ const Sidebar = () => {
 
         <NavItem>
          <NavIcon>
-              <i className="fa fa-fw fa-user" style={{fontSize:"1.5em"}}></i>
+              <i className="fa fa-fw fa-bullhorn" style={{fontSize:"1.5em"}}></i>
          </NavIcon>
          <NavText>Campaign</NavText>
         </NavItem>
