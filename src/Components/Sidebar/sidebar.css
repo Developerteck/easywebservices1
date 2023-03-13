@@ -11,6 +11,10 @@
   left: 0;
   z-index: 1006;
   min-width: 64px;
+  height: 1300px;
   background: #41464b;
   transition: min-width 0.2s;
+}
+button:not(:disabled) {
+  cursor: pointer;
 }

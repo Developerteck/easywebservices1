@@ -1,41 +1,110 @@
 import React from 'react'
-import './home.css';
+import './home.css'
 
 const Home = () => {
   return (
-    <div className='hom'>
-    <div class="summary-section-1 wfid_temp9392457858" style={{display:"inline-flex"}}>
-    <div class="graph-content wfid_graph_body wfid_temp9392457986">
-        <div class="heading d-flex wfid_temp9392458114">
-            <div class="summary-overview wfid_temp9392458242">
-                <p id="summary_overview_title" class="subtitle wfid_temp9392458370 p">Summary Overview</p>
-            </div>
-            <div class="one-row wfid_temp9392458498">
-                <ol id="summary" class="d-flex wfid_summary wfid_temp9392458626 list">
-                    <li id="today" class="wfid_today wfid_temp9392458754 listitem"><button id='summary_today' class='wfid_summary_today bg-transparent' style={{outline:"none", border: "0",
-boxshadow: "none"}} onclick='todayData()'>Today</button></li>
-                    <li id="week" class="active wfid_week wfid_temp9392458882 listitem"><button id='summary_week' class='wfid_summary_week bg-transparent' style={{outline:"none", border: "0",
-boxshadow:"none"}} onclick='weekData()'>Week</button></li>
-                    <li id="month" class="active wfid_month wfid_temp9392459010 listitem"><button id='summary_month' class='wfid_summary_month bg-transparent' style={{outline:"none", border: "0",
-boxshadow:"none"}} onclick='monthData()'>Month</button></li>
-                </ol>
-            </div>
-        </div>
-        <div id="chart_panel" class="wfid_chart_panel wfid_temp9392459138" style={{height: "auto", width: "auto"}}><canvas id='lineChart' class='h-240 w-100' className='wfid_lineChart'></canvas></div>
-    </div>
-    <div id="dlr_content" class="dlr-content wfid_dlr_content wfid_temp9392459266">
-        <div class="chart-header wfid_temp9392459394">
-            <div class="chart-info wfid_temp9392459522">
-                <p id="dlr_title_text" class="title wfid_dlr_label wfid_temp9392459650 p" style={{fontsize:"15px"}}>Delivered Percent</p>
-                <p id="dlr_perc" class="subtitle wfid_dlr_perc wfid_temp9392459778 p">out of 0</p>
-            </div>
-        </div>
-        <div class="chart-container wfid_chart_container wfid_temp9392459906">
-            <div class="index-custom-pie-chart index-custom-apex-pie-chart w-auto h-auto wfid_temp9392460034"><canvas id='pieChart' class='wfid_pieChart'></canvas></div>
-        </div>
-    </div>
-</div>
-    </div>
+    <div class="Home">
+
+  <div class="hom">
+  	<div class="hom1">
+  		<div class="hom1_left">
+  			<h3>Summary Overview</h3>
+  			<p>Today</p>
+  			<p>Week</p>
+  			<p>Month</p>
+  		</div>
+  		<div class="hom1_right">
+  			<h2>Delivered Percent</h2>
+  			<p style={{color: "#aaa"}}>out of 0</p>
+  			<h3 style={{textalign: "center", paddingtop: "60px"}}>No Data%</h3>
+  			
+  		</div>
+  	</div>
+
+  </div>
+
+ <div class="hom2_0">
+ 	<h2>Quick Status</h2>
+  <div class="hom2">
+  		<div class="hom2_1">
+  			<h3>Today</h3>
+  			<h4>0</h4>
+  		</div>
+
+  		<div class="hom2_1">
+  			<div class="hom2_2">
+  			  <h3>Week</h3>
+  			  <p style={{paddingtop: "5px"}}>(Excluding Today)</p>
+  			  <h4>0</h4>
+  		   </div>
+  		</div>
+
+  		<div class="hom2_1">
+  			<h3>Month</h3>
+  			<h4>0</h4>
+  		</div>
+  		
+  	</div>
+  </div>
+
+  <div class="hom3">
+  	<h2>Scheduled SMS</h2>
+  	
+  </div>
+
+  {/* ============Step4============== */}
+
+  <div class="hom4">
+  	
+  	<div class="hom4_0">
+  	<div class="hom4_left">
+  		<h3>Quick Shortcuts</h3>
+  		<div class="hom4_left1">
+  			<p></p>
+  			<p style={{width: "150px"}}>DLT Management</p>
+  			<p><i class="fa-light fa-arrow-up-right-from-square"></i></p>
+  		</div>
+
+  		<div class="hom4_left2">
+  			<p><i class="fa-solid fa-bullhorn"></i></p>
+  			<p style={{width: "180px"}}>Scheduled Campaigns</p>
+  			<p>0</p>
+  		</div>
+  		<div class="hom4_left3">
+  			<p><i class="fa-solid fa-user"></i></p>
+  			<p style={{width: "150px"}}>Inactive Accounts</p>
+  			<p>0</p>
+  		</div>
+  		<div class="hom4_left4">
+  			<p><i class="fa-solid fa-user"></i></p>
+  			<p style={{width: "150px"}}>Sender ID</p>
+  			<p>0</p>
+  		</div>
+
+  		<div class="hom4_left5">
+  			<p><i class="fa-solid fa-message"></i></p>
+  			<p style={{width: "150px"}}>Templates</p>
+  			<p>0</p>
+  		</div>
+  		
+  	</div>
+  	<div class="hom4_right">
+  		<h3>Phonebook - Quick Shortcuts</h3>
+  		<div class="hom4_right1">
+  			<div class="hom4_right2">
+  				<p><i class="fa-regular fa-user-pen"></i></p>
+  				<p>0 Contacts</p>
+  			</div>
+  			<div  class="hom4_right2_1">
+  				<p><i class="fa-solid fa-user-group"></i></p>
+               <p>0 Groups</p>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+  </div>
+
+  </div>
   )
 }
 

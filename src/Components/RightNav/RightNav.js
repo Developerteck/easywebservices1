@@ -4,11 +4,11 @@ import './rightnav.css'
 const RightNav = () => {
   return (
     <div className='rightNav'>
-     <select>Easy Web</select>
-     <option>1</option>
-     <option>2</option>
-     <option>3</option>
-     
+          <select style={{width:"120px"}}>
+           <option value="easy web">EASY WEB</option>
+           <option value="Noida">Noida</option>
+           <option value="Greater Noida">Greater Noida</option>
+          </select>
     </div>
   )
 }

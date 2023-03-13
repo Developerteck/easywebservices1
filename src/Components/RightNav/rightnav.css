@@ -1,4 +1,15 @@
 .rightNav{
-    width: 14%;
+    width: 20%;
+    background-color: #fff;
+    height: 178vh;
     float: right;
+    margin-top:-146px;
+    padding-top: 70px;
+    padding-left: 40px;
+   outline: none;
+}
+.rightNav select{
+    border: none;
+    background-color: none;
+    outline: none;
 }
